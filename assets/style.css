@@ -1,6 +1,7 @@
 * {
     
     font-family: Mukta, serif; 
+    box-sizing: border-box;
 }
 
 :root {
@@ -8,13 +9,23 @@
     --background-color: rgb(97, 97, 240);
     --color: #fff8dccb;
 }
+
+main {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    column-gap: 35px;
+    flex-wrap: wrap;
+
+}
 img {
 
     border: 2px solid aquamarine;
 }
 header {
     
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     padding: 20px 20px 20px 0px;
     width: 100%;
@@ -104,13 +115,13 @@ a {
 
 #about-me, #work {
 
-    display: inline-flex;
-    justify-content: right;
+    display: flex;
+    justify-content: center;
 }
 
 .me, .pictures {
 
-    display: inline-flex;
+    display: flex;
     height: 225px;
 }
 
@@ -121,7 +132,7 @@ a {
 }
 
 #about-me p{
-    display: inline-flex;
+    display: flex;
     text-align: left;
     font-size: 18px;
     line-height: 1.6;
