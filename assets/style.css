@@ -131,8 +131,8 @@ a {
 
 .me img, .pictures img{
 
- margin: 2%;
- width: 20%;
+    margin: 5px;
+    width: 190px;
 }
 
 #about-me p{
@@ -147,6 +147,11 @@ a {
 .pictures {
 
     position: relative;
+    flex-wrap: wrap;
+}
+.featured {
+
+    width:400px;
 }
 
 .text-block {
