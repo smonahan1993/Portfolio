@@ -205,6 +205,11 @@ footer {
     .pictures img {
         width: 50%;
     }
+    .pictures_row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
 
 }
 
