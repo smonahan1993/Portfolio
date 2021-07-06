@@ -176,6 +176,11 @@ a {
     padding-right: 20px;
   }
 
+.work-text {
+
+    display: flex;
+    
+}
 
 footer {
 
@@ -183,6 +188,27 @@ footer {
     text-align: center;
     
 }
+/* laptop breakpoint */
+
+@media screen and (max-width: 1140px) {
+
+    #work {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .pictures {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .pictures img {
+        width: 50%;
+    }
+
+}
+
+/*ipad */
 
 @media screen and (max-width: 992px) {
 
