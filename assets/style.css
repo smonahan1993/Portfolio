@@ -1,0 +1,168 @@
+* {
+    
+    font-family: Mukta, serif; 
+}
+
+:root {
+
+    --background-color: rgb(97, 97, 240);
+    --color: #fff8dccb;
+}
+img {
+
+    border: 2px solid aquamarine;
+}
+header {
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 0px;
+    width: 100%;
+    position: fixed;
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+header h1 {
+
+    display: inline-block;
+    font-size: 48px;
+    color: var(--background-color);
+    background-color: var(--color);
+    padding-left: 20px;
+
+}
+
+nav {
+
+    padding-top: 15px;
+    margin-right: 20px;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    position: relative;
+    right: -20%;
+}
+
+nav ul {
+        list-style-type: none;
+       
+}
+
+nav ul li {
+    display: flex;
+    float: right;
+    margin-left: 25px;
+    flex-direction: column;
+}
+
+a {
+    color:  #ffffff !important;
+    text-decoration: underline;
+}
+
+.blank {
+
+    height: 85px;
+    width: 100%;
+}
+.wallpaper {
+
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.about, .work {
+
+    text-align: right;
+    text-justify: distribute;
+    display: inline-block;
+    text-decoration: wavy;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 1%;
+    margin: 20px;
+    border-right: solid rgb(96, 96, 163);
+    
+}
+
+.about img, .work img{
+    width: 15%;
+    left: 30px;
+    padding-top: 1%;
+
+}
+
+.about img:hover {
+
+    box-shadow: 2px 2px 2px 2px aqua, inset 2px 2px 2px 2px aqua;
+}
+
+#about-me, #work {
+
+    display: inline-flex;
+    justify-content: right;
+}
+
+.me, .pictures {
+
+    display: inline-flex;
+    height: 225px;
+}
+
+.me img, .pictures img{
+
+ margin: 2%;
+ width: 20%;
+}
+
+#about-me p{
+    display: inline-flex;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-top: 2%;
+    
+}
+
+.pictures {
+
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+footer {
+
+    background-color: var(--background-color);
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    img {
+
+        width: 50%;
+    }
+
+    p {
+
+        font-size: 20px;
+    }
+
+
+}
