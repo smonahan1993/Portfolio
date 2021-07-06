@@ -230,7 +230,18 @@ footer {
     }
     .pictures.featured {
         justify-content: flex-start;
+        width: 50%;
     }
+    .work-text {
+        width: 100%;
+    }
+    .work {
+        width: 50%;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    
+    
     
     
 
