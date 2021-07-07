@@ -55,19 +55,19 @@ nav {
     right: -20%;
 }
 
-nav ul {
+nav ul, #contact ul {
         list-style-type: none;
        
 }
 
-nav ul li {
+nav ul li, #contact ul li {
     display: flex;
     float: right;
     margin-left: 25px;
     flex-direction: column;
 }
 
-a {
+nav ul li a {
     color:  #ffffff !important;
     text-decoration: underline;
 }
@@ -87,7 +87,7 @@ a {
     background-size: cover;
     background-position: center;
 }
-.about, .work {
+.about, .work, .contact {
 
     
     text-align: justify;
@@ -114,7 +114,7 @@ a {
     box-shadow: 2px 2px 2px 2px aqua, inset 2px 2px 2px 2px aqua;
 }
 
-#about-me, #work {
+#about-me, #work, #contact {
 
     display: flex;
     justify-content: center;
@@ -129,11 +129,16 @@ a {
 
 }
 
-.me, .pictures {
+.me, .pictures, .contact_info {
 
     display: flex;
     height: 225px;
     column-gap: 16px;
+}
+
+.contact_info {
+
+    height: 100px;
 }
 
 .me img, .pictures img{
@@ -189,6 +194,18 @@ a {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+#contact ul li, #contact ul li a {
+    display: flex;
+    color: var(--background-color);
+    text-decoration: underline rgb(96, 96, 163)  ;
+}
+
+ul {
+    display: flex;
+    padding-top: 25px;
+    font-size: 20px;
 }
 footer {
 
