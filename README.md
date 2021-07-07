@@ -8,3 +8,10 @@ I will continue to update this as I create content, so now I have only uploaded 
 
 Stay tuned for more!
 
+here's a link to the github page: https://smonahan1993.github.io/Portfolio/
+
+Mock up: 
+
+![image](https://user-images.githubusercontent.com/85653998/124687358-b9e82880-dea2-11eb-9d2d-c01ae4d98218.png)
+
+
